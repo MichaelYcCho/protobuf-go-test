@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-option go_package = "my-protobuf/protogen/basic";
+option go_package = "protobuf-go/protogen/basic";
 
 message Hello{
     string name = 1;

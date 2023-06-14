@@ -1,7 +1,7 @@
 syntax = "proto3";
 
 // go packeage에 넣기 위한 path 세팅
-option go_package = "my-protobuf/protogen/basic";
+option go_package = "protobuf-go/protogen/basic";
 
 message User{
     uint32 id = 1;

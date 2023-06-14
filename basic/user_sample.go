@@ -2,7 +2,8 @@ package basic
 
 import (
 	"log"
-	"my-protobuf/protogen/basic"
+
+	"github.com/MichaelYcCho/protobuf-go/protogen/basic"
 )
 
 func BasicUser() {

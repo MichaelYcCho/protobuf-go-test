@@ -1,4 +1,4 @@
-module my-protobuf
+module github.com/MichaelYcCho/protobuf-go
 
 go 1.19
 
