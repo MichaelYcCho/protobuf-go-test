@@ -3,8 +3,10 @@ package main
 import (
 	"fmt"
 	"log"
-	"my-protobuf/basic"
+
 	"time"
+
+	"github.com/MichaelYcCho/protobuf-go/basic"
 )
 
 type logWriter struct {
