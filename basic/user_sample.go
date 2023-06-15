@@ -12,6 +12,8 @@ func BasicUser() {
 		Username: "superman",
 		IsActive: true,
 		Password: []byte("1234"),
+		Emails:   []string{"superman@movie.com", "superman@dc.com"},
+		Gender:   basic.Gender_GENDER_MALE,
 	}
 
 	log.Println(&u)
