@@ -20,3 +20,4 @@ message User{
     repeated string emails = 16;  // string 타입의 배열
     Gender gender = 17;
 }
+
