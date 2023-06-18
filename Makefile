@@ -24,6 +24,10 @@ protoc:
 .PHONY: build
 build: clean protoc tidy
 
+# 안됨 ㅠ
+.PHONY: execute
+execute: protoc --go_opt=module=protobuf-go --go_out=. ./proto/basic/*.proto    
+
 
 .PHONY: run
 run:
