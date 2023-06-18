@@ -35,7 +35,16 @@ func ProtoToJsonuser() {
 }
 
 func JsonToProtoUser() {
-	json := `{"id":99, "username":"batman", "is_active":true, "password":"MTIzNA==", "emails":["batman@movie.com", "batman@dc.com"], "gender":"GENDER_MALE"}`
+	json := `
+	{
+		"id":99, 
+		"username":"batman", 
+		"is_active":true, 
+		"password":"MTIzNA==",
+		"emails":["batman@movie.com", "batman@dc.com"], 
+		"gender":"GENDER_MALE"
+	}
+	`
 
 	var p basic.User
 	err := protojson.Unmarshal([]byte(json), &p)
